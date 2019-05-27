@@ -1,0 +1,82 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+nav a{
+    color: #fff;
+    transition:600ms ease-in;
+    font-size: 16px;
+
+}
+
+nav a:hover{
+    color: grey;
+
+}
+.navbar-default{
+    transition:500ms ease-in;
+    background:transparent;
+  }
+.navbar-default.scrolled{
+    background:#ff672d;
+    box-shadow: #54585e;
+  }
+section{
+    padding: 20px;
+}   
+.main_home{
+    text-align: center;
+}
+.jumbotron{
+    height: 100vh;
+    padding: 190px 0px 50px 0px;
+    text-align: center;
+    background-color: transparent;
+}
+.jumbotron i{
+    font-size: 35px;
+    color: #FF4500;
+}
+.bv{
+    height: 55%;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top:0;
+    background-color: #F2F2F2;
+    -webkit-clip-path: polygon(0 20%, 0 0, 100% 0, 100% 20%, 50% 31%);
+clip-path: polygon(0 20%, 0 0, 100% 0, 100% 20%, 50% 31%);
+}
+
+.bvd{
+    height: 55%;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top:0;
+    background-color: #54585e;
+    -webkit-clip-path: polygon(0 20%, 0 0, 100% 0, 100% 20%, 50% 31%);
+clip-path: polygon(0 20%, 0 0, 100% 0, 100% 20%, 50% 31%);
+}
+
+
+.bvc{
+    height: 55%;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top:0;
+    background-color: #ff672d;
+    -webkit-clip-path: polygon(0 20%, 0 0, 100% 0, 100% 20%, 50% 31%);
+clip-path: polygon(0 20%, 0 0, 100% 0, 100% 20%, 50% 31%);
+}
+
+
+
+
+
+
+
+
